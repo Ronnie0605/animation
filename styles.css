@@ -1,0 +1,23 @@
+.container {
+  background-color: aqua;
+}
+.box {
+  background-color: blue;
+  width: 150px;
+  height: 100px;
+  position: relative;
+  animation-name: smallbox;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+  animation-direction: alternate-reverse;
+}
+@keyframes smallbox {
+  from {
+    width: 150px;
+  }
+  to {
+    width: 750px;
+  }
+}
